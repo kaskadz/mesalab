@@ -21,12 +21,14 @@ You have to trust the notebook to be able to see the animations.
 
 #### jupyter lab
 Search for `Trust Notebook` command in left panel
-Also install `@pyviz/jupyterlab_pyviz` extension
-```bash
-jupyter labextension install @pyviz/jupyterlab_pyviz
-```
 
 #### Command line:
 ```bash
 jupyter trust /path/to/notebook.ipynb
+```
+
+### jupyter lab extensions
+If you are using **jupyter lab**, please install `@pyviz/jupyterlab_pyviz` extension:
+```bash
+jupyter labextension install @pyviz/jupyterlab_pyviz
 ```

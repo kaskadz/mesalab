@@ -7,10 +7,11 @@ _Simple epidemic model implemented in python mesa library_
 - mesa
 - bokeh
 - panel
-- pyviz
+- matplotlib
+- pandas
 
 ```bash
-pip install tqdm mesa bokeh panel pyviz
+pip install tqdm mesa bokeh panel matplotlib pandas
 ```
 
 ### Trusted notebook
